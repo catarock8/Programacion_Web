@@ -1,0 +1,72 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+}
+.todo {
+    display: flex;
+    background-color: #22201d; /* Color de fondo del bloque */
+}
+.bloque1 {
+    display: flex;
+    width: 20%; /* Ocupa todo el ancho */
+    height: 100vh; /* Ocupa el 20% del viewport en altura */
+    background-color: #22201d; /* Color de fondo del bloque */
+    
+}
+.menu_p p {
+    margin-top: 30px;
+    
+}
+.menu a{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 30px;
+    color: aliceblue;
+    text-decoration: none; /*quita la rayita debajo */
+}
+a:hover {
+    color: darkgrey; /* Cambia el color a lo que desees */
+    transition: color 0.3s ease; 
+}
+.bloque_colores {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.bloque2 {
+    width: 100%; 
+    height: 25%; 
+    margin-right: 50px;
+    background-color: #09efff; /* Color de fondo del bloque */
+}
+.bloque3 {
+    width: 100%; 
+    height: 25%; 
+    margin-right: 50px;
+    background-color: rgb(255, 239, 18); /* Color de fondo del bloque */
+}
+.bloque4 {
+    width: 100%; 
+    height: 25%; 
+    margin-right: 50px;
+    background-color: rgb(255, 117, 5); /* Color de fondo del bloque */
+}
+.bloque5 {
+    width: 100%; 
+    height: 25%; 
+    margin-right: 50px;
+    background-color: rgb(255, 23, 23); /* Color de fondo del bloque */
+}
+h1 {
+    margin-left: 130px;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+p {
+    margin-left: 130px;
+    color: aliceblue;
+    font-family: sans-serif;
+    margin-right: 60px;
+}

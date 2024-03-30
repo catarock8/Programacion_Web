@@ -1,0 +1,40 @@
+/* Estilos de la pagina ong_peludos*/
+.titulo_ong_peludos h1 {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 80px;
+}
+p {
+    color: aliceblue;
+    text-align: center;
+    text-align: justify;
+    margin-right: 110px;
+}
+h2 {
+    color: aliceblue;
+    text-align: center;
+}
+ul {
+    color: aliceblue;
+    text-align: justify;
+    
+}
+body {
+    color: aliceblue;
+    background-color: black;
+    margin-left: 100px; 
+}
+img {
+    margin-right: 40px;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+a:hover {
+    color: darkgrey; /* Cambia el color a lo que desees */
+    transition: color 0.3s ease; 
+}
+#contenedor-enlace {   /*tambien se puede poner .contenedor-enlace solo que abajo hay que poner class en vez de id */
+    text-align: right; /* Alinea el contenido del contenedor a la derecha */
+}
